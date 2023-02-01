@@ -1,0 +1,74 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ----navbar---- */
+.nav{
+  display: flex;
+  gap: 20px;
+  background-color: #5a0404;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  padding: 15px;
+  width: 100%;
+  font-size: larger;
+  margin-bottom: 5%;
+}
+
+/* ----footer---- */
+.footer{
+  
+  display: flex;
+  list-style-type: none;
+  font-size: larger;
+  padding: 30px;
+  background-color: #5a0404;
+  color: rgb(255, 255, 255);
+ margin-top: 3%;
+  gap: 40px;
+  left: 0;
+bottom: 0;
+width: 100%;
+text-align: center;
+justify-content: center;
+}
+
+
+/*---- card---- */
+.card{
+  display: grid;
+  margin-left: 20px;
+  border: solid 4px;
+  padding-left: 1%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 7px 10px 18px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 10px 18px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 18px 3px rgba(0,0,0,0.75);
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+
+}
+
+#p{
+  margin-top: 3%;
+}
+
+.card h2{
+  margin-top: 2%;
+}
+
+h1{
+  margin: 1%;
+}
+
+#tv{
+  margin: 1%;
+  margin-top: 4%;
+}
