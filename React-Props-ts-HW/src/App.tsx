@@ -13,6 +13,7 @@ function App() {
 <nav>
   <Nav/>
 </nav>
+
 <h1 >Movies:</h1>
 <div className='container'>
 <Movies/>
@@ -21,6 +22,7 @@ function App() {
 <div className='container'>
 <TVShows/>
 </div>
+
 <footer>
   <Footer/>
 </footer>
